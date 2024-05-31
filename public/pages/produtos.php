@@ -18,8 +18,8 @@
             <button onclick="information()"class="campo"><img src="../icon/info.svg" alt="" srcset="">Informações</button>
             <button onclick="mesa()" class="campo"><img src="../icon/hexagon.svg" alt="" srcset="">Mesa</button>
             <button onclick="produto()" class="campo"><img src="../icon/shopping-bag.svg" alt="" srcset="">Produtos</button>
-            <button  class="campo"><img src="../icon/terminal.svg" alt="" srcset="">Autores</button>
-            <button  class="campo"><img src="../icon/headphones.svg" alt="" srcset="">Suporte</button>
+            <button onclick="suporte()" class="campo"><img src="../icon/terminal.svg" alt="" srcset="">Autores</button>
+            <button onclick="suporte()" class="campo"><img src="../icon/headphones.svg" alt="" srcset="">Suporte</button>
             <button onclick="home()" class="campo"><img src="../icon/log-out.svg" alt="" srcset="">Sair</button>
         </div>
         <!-- HOME -->

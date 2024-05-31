@@ -149,3 +149,6 @@ function mesa(){
 function home(){
     window.location.href = 'http://localhost/to%20na%20faculdade/';
 }
+function suporte(){
+    window.location.href = 'http://localhost/to%20na%20faculdade/public/pages/autores.php';
+}

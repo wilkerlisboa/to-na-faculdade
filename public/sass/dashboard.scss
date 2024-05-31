@@ -47,3 +47,15 @@ table{
 p{
     padding: 10px;
 }
+.suporte{
+    @include suporte();
+}
+.imagem-suporte{
+    @include imagem-suporte();
+}
+.title-suporte{
+    @include title-suporte();
+}
+.text-suporte{
+    @include text-suporte();
+}

@@ -80,6 +80,7 @@ p {
   font-family: cursive;
   border-style: none;
   outline: none;
+  cursor: pointer;
   box-shadow: rgba(209, 0, 0, 0.75) 0px 13px 25px -9px;
   border-radius: 3px;
 }

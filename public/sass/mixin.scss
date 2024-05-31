@@ -359,3 +359,42 @@
     font-family: $font-family-all-page;
     color: $color-white;
 }
+// suporte
+@mixin suporte{
+    position: absolute;
+    margin-left: 153px;
+    margin-top: 159px;
+    width: 823px;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+@mixin imagem-suporte{
+    position: absolute;
+    margin-top: -427px;
+    margin-left: 205px;
+    width: 285px;
+}
+@mixin title-suporte{
+    position: absolute;
+    font-family: $font-family-all-page;
+    color: $color-white;
+    margin-top: -282px;
+    margin-left: 86px;
+}
+@mixin text-suporte{
+    position: absolute;
+    width: 519px;
+    line-height: 1.6;
+    margin-top: 993px;
+    margin-left: 90px;
+    font-family: $font-family-all-page;
+    color: $color-white;
+    text-align: justify;
+}
